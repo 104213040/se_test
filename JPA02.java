@@ -5,9 +5,6 @@ public class JPA02 {
     static Scanner keyboard = new Scanner(System.in);
 
     public static void main(String[] args) {
-        test();        
-        test();
-        test();
         test();
     }
 
@@ -18,7 +15,7 @@ public class JPA02 {
         a = keyboard.nextInt();
         b = keyboard.nextInt();
         c = keyboard.nextInt();
-
+        
         if ( (a+b>c) && (b+c>a) && (c+a>b) ) {
             if ( (a*a+b*b==c*c) || (b*b+c*c==a*a) || (c*c+a*a==b*b) ) {
                 System.out.printf("直角三角形\n");
